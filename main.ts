@@ -1,10 +1,12 @@
-// A working roblox-brainrot-01 entry (Node 22, standard library only): the game is this directory's Rojo
-// project, built into game.rbxl with `rojo build default.project.json --output game.rbxl`, and the program
-// hands it in. It copies game.rbxl, src/, screenshots/ and PLAY.json from beside this file to /output and
-// writes /output/dossier.json, the summary the judge reads, with the vendored make.fun library. A starting
-// point, not a winner: it is a grey square that moves with the arrow keys. Build your game, rebuild
-// game.rbxl, put your PNG or JPEG screenshots in screenshots/ (the first by name is the cover, and one of
-// them is the thumbnail you upload for your game on Roblox) and fill in PLAY.json with your published place.
+// Brainrot Pet Bazaar -- a working roblox-brainrot-01 entry (Node 22, standard library only): the game is
+// this directory's Rojo project, built into game.rbxl with `rojo build default.project.json --output
+// game.rbxl`, and the program hands it in. It copies game.rbxl, src/, screenshots/ and PLAY.json from beside
+// this file to /output and writes /output/dossier.json, the summary the judge reads, with the vendored
+// make.fun library. The game: brainrot pets parade down a conveyor with price tags -- buy one, carry it
+// home, set it on a pad at your base and it earns cash every second. Steal from unlocked rival bases, lock
+// your own, survive the GRAVY TSUNAMI, and rebirth at the shrine for a permanent income multiplier.
+// Put your PNG or JPEG screenshots in screenshots/ (the first by name is the cover, and one of them is the
+// thumbnail you upload for your game on Roblox) and fill in PLAY.json with your published place.
 //
 // Every name under /output starts with a letter, a digit or _ and holds only letters, digits, . _ and -: the
 // grader fails an entry whose output holds any other, so a file such as .gitkeep or .DS_Store copied in fails it.

@@ -1,8 +1,12 @@
-# roblox-brainrot-01 starter
+# Brainrot Pet Bazaar
 
 A working entry for make.fun's "Make the best AI Roblox brainrot game" bounty (roblox-brainrot-01), laid out as your
-repository: a Rojo project whose game is a grey square that moves with the arrow keys. It is a starting point, not a
-winner, and not yet the 3D game the bounty asks for: its square is drawn on the screen, not in Roblox's 3D world.
+repository: a Rojo project whose game is a full 3D Steal-a-Brainrot-like. Brainrot pets parade down a conveyor lane
+with price tags; buy one, carry it home on your head, and set it on a display pad at your base, where it earns cash
+every second. Spend earnings on rarer pets (14 original pets across Common, Rare, Epic, Legendary and Mythic, with
+Gold and Disco mutations), steal pets from unlocked rival bases, lock your own base for 60 seconds at a time,
+dodge the periodic GRAVY TSUNAMI that washes carried pets back to the lane, and rebirth at the shrine to reset for
+a permanent +50% income multiplier per rebirth.
 
 - `main.ts` (Node 22, standard library only) hands the game in: it copies `game.rbxl`, `src/`, `screenshots/` and
   `PLAY.json` to `/output`, leaving out every name that starts with a dot (such as `.gitkeep` or `.DS_Store`, which
